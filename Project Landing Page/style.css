@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding-top: 0;
+
+}
+.body {
+    display: flex;
+    justify-content: center;
+}
+.header, .first {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    padding: 6px;
+}
+ul {
+    list-style-type: none;
+    display:flex;
+    justify-content: space-between;
+}
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.left-side {
+    color: #F9FAF8;
+    
+}
+
+.left-side a {
+    font-size: 24px;
+}
+
+.right-side {
+    display: flex;
+    justify-content: space-between;
+    gap: 2em;
+}
+
+.right-side a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
+.first p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 3px;
+    padding-left: 2em;
+    padding-right: 2em;
+    border-style: none;
+    color: #F9FAF8;
+    font-size: 18px;
+}
+
+.first img {
+    width: 500px;
+    height: 500px;
+}
+
+.first {
+    display: flex;
+    padding: 4em;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color:#1F2937
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+    gap: 2em;
+    padding-bottom: 9em;
+}
+
+.hearts {
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.heart1, .heart2, .heart3, .heart4{
+    width: 8em;
+    height: 8em;
+}
+
+.second img {
+    width: 8em;
+    height: 8em;
+}
+
+.third {
+    background-color: #E5E7EB;
+    padding: 5em;
+    text-align: center;
+}
+.quote {
+    font-size: 36px;
+    font-style: light italic;
+    color: #1F2937;
+    text-align: left;
+}
+
+.signature {
+    text-align: right;
+}
+
+.fourth {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    display: flex;
+    gap: 1em;
+    padding: 5em;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: white;
+    margin: 5em;
+}
+
+.fourth button {
+    border-color: #E5E7EB;
+    border-style: solid;
+    margin-left: auto;
+    flex-shrink: 0;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 1em;
+    text-align: center;
+}
